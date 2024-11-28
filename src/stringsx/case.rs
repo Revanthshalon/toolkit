@@ -85,6 +85,7 @@ mod tests {
         assert_eq!(to_lower_initials("Hello"), "hello");
         assert_eq!(to_lower_initials("World"), "world");
         assert_eq!(to_lower_initials("world"), "world");
+        assert_eq!(to_lower_initials(""), "");
     }
 
     #[test]
@@ -92,5 +93,6 @@ mod tests {
         assert_eq!(to_upper_initials("hello"), "Hello");
         assert_eq!(to_upper_initials("world"), "World");
         assert_eq!(to_upper_initials("WORLD"), "WORLD");
+        assert_eq!(to_upper_initials(""), "");
     }
 }
