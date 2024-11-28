@@ -2,7 +2,7 @@
 
 A collection of utility functions and helpers for Rust projects.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![codecov](https://codecov.io/gh/Revanthshalon/toolkit/graph/badge.svg?token=t0zuCeUcsB)](https://codecov.io/gh/Revanthshalon/toolkit) [![Security Audit](https://github.com/Revanthshalon/toolkit/actions/workflows/audit.yml/badge.svg)](https://github.com/Revanthshalon/toolkit/actions/workflows/audit.yml) [![Lint](https://github.com/Revanthshalon/toolkit/actions/workflows/lint.yml/badge.svg)](https://github.com/Revanthshalon/toolkit/actions/workflows/lint.yml) [![Format](https://github.com/Revanthshalon/toolkit/actions/workflows/format.yml/badge.svg)](https://github.com/Revanthshalon/toolkit/actions/workflows/format.yml)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![codecov](https://codecov.io/gh/Revanthshalon/toolkit/graph/badge.svg?token=t0zuCeUcsB)](https://codecov.io/gh/Revanthshalon/toolkit) [![Security Audit](https://github.com/Revanthshalon/toolkit/actions/workflows/audit.yml/badge.svg)](https://github.com/Revanthshalon/toolkit/actions/workflows/audit.yml) [![Lint](https://github.com/Revanthshalon/toolkit/actions/workflows/lint.yml/badge.svg)](https://github.com/Revanthshalon/toolkit/actions/workflows/lint.yml) [![Format](https://github.com/Revanthshalon/toolkit/actions/workflows/format.yml/badge.svg)](https://github.com/Revanthshalon/toolkit/actions/workflows/format.yml)
 
 ## Features
 
@@ -74,20 +74,10 @@ Please note we have a code of conduct, please follow it in all your interactions
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-### MIT License Summary
-- ✓ Commercial use
-- ✓ Modification
-- ✓ Distribution
-- ✓ Private use
-- ✓ Liability
-- ✓ Warranty
-
-The MIT License is a permissive license that is short and to the point. It lets people do anything they want with your code as long as they provide attribution back to you and don't hold you liable.
+This project is licensed under the Apache-2.0 License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
-[Revanth Shalon] - [@your_twitter](https://twitter.com/your_twitter) - email@example.com
+[Revanth Shalon] - [@NautilusTK](https://x.com/NautilusTK) - revanthshalonraj@gmail.com
 
 Project Link: [https://github.com/revanthshalon/toolkit](https://github.com/username/toolkit)

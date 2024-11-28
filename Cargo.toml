@@ -2,7 +2,7 @@
 name = "toolkit"
 version = "0.1.0"
 authors = ["Revanth <revanthshalonraj@gmail.com>"]
-license = "MIT"
+license = "Apache-2.0"
 description = "A toolkit for the Nautilus project"
 repository = "https://github.com/revanthshalon/toolkit"
 edition = "2021"
