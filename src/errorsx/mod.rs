@@ -279,7 +279,7 @@ mod tests {
         assert_eq!(err.context(), &vec!["Processing user upload".to_string()]);
         assert!(err.source().is_some());
         assert_eq!(location.file(), "src/errorsx/mod.rs");
-        assert!(backtrace.to_string().contains("Backtrace"));
+        assert!(backtrace.to_string().contains("backtrace"));
         assert_eq!(err.status_code(), &Some(500));
         assert_eq!(err.status(), &Some("Internal Server Error".to_string()));
     }
