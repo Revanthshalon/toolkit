@@ -7,77 +7,50 @@ A collection of utility functions and helpers for Rust projects.
 ## Features
 
 ### String Utilities (`stringsx`)
+- Case manipulation (uppercase/lowercase initials)
+- String coalescing
+- String splitting
+- UTF-8 safe string truncation
 
-The `stringsx` module provides string manipulation utilities:
+### UUID Utilities (`uuidx`)
+- UUID v4 generation
 
-#### Case Manipulation
-- `to_lower_initials`: Converts the first character of a string to lowercase
-- `to_upper_initials`: Converts the first character of a string to uppercase
+### Error Utilities (`errorsx`)
+- Error handling utilities (WIP)
 
-Example:
-```rust
-use toolkit::stringsx::case::{to_lower_initials, to_upper_initials};
-
-assert_eq!(to_lower_initials("Hello"), "hello");
-assert_eq!(to_upper_initials("world"), "World");
-```
-
-## Installation
-
-Add this to your `Cargo.toml`:
+## Quick Start
 
 ```toml
+# Cargo.toml
 [dependencies]
-toolkit = { git = "https://github.com/username/toolkit" }
+toolkit = { git = "https://github.com/revanthshalon/toolkit" }
 ```
 
-## Usage
-
 ```rust
-use toolkit::stringsx::case;
+use toolkit::stringsx::case::to_upper_initials;
+use toolkit::uuidx::new_v4;
 
 fn main() {
-    let lowercase = case::to_lower_initials("Hello"); // "hello"
-    let uppercase = case::to_upper_initials("world"); // "World"
+    let text = to_upper_initials("hello"); // "Hello"
+    let uuid = new_v4();
 }
 ```
 
 ## Documentation
 
-The codebase includes comprehensive documentation with examples. You can generate the documentation locally by running:
-
+Generate documentation locally:
 ```bash
 cargo doc --open
 ```
 
-## Testing
-
-Run the test suite with:
-
-```bash
-cargo test
-```
-
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change.
-
-Please note we have a code of conduct, please follow it in all your interactions with the project.
-
-### Pull Request Process
-
-1. Update the README.md with details of changes to the interface, if applicable.
-2. Update any documentation that is affected by your changes.
-3. The PR may be merged once you have the sign-off of at least one other developer.
+Contributions welcome! Please create an issue or submit a PR.
 
 ## License
 
-This project is licensed under the Apache-2.0 License - see the [LICENSE](LICENSE) file for details.
+Apache-2.0 License - See [LICENSE](LICENSE) file
 
 ## Contact
 
 Revanth Shalon - [@NautilusTK](https://x.com/NautilusTK) - revanthshalonraj@gmail.com
-
-Project Link: [https://github.com/revanthshalon/toolkit](https://github.com/username/toolkit)
