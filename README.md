@@ -78,6 +78,6 @@ This project is licensed under the Apache-2.0 License - see the [LICENSE](LICENS
 
 ## Contact
 
-[Revanth Shalon] - [@NautilusTK](https://x.com/NautilusTK) - revanthshalonraj@gmail.com
+Revanth Shalon - [@NautilusTK](https://x.com/NautilusTK) - revanthshalonraj@gmail.com
 
 Project Link: [https://github.com/revanthshalon/toolkit](https://github.com/username/toolkit)
